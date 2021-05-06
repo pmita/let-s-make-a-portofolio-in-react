@@ -3,11 +3,12 @@ import React from 'react';
 import AboutUs from './pages/AboutUs';
 //Let's import our global css style
 import GlobalStyle from './components/GlobalStyle';
+import Nav from './components/Nav'
 
 function App() {
   return (
     <div className="App">
-      <h1>Film</h1>
+      <Nav />
       <GlobalStyle />
       <AboutUs />
     </div>
