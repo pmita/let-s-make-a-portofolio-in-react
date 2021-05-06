@@ -1,6 +1,6 @@
 import React from 'react';
 //Let's import our Pages
-import AboutUs from './pages/About';
+import AboutUs from './pages/AboutUs';
 
 function App() {
   return (
