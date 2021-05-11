@@ -2,24 +2,29 @@ import React from 'react';
 //Let's import images
 import home1 from '../img/home1.png';
 //Let's import our styled components
-import styled from 'styled-components';
 import {About, Description, Image, Hide} from '../styles';
+//Let's import our Framer motion library
+import {motion} from 'framer-motion';
 
 const AboutSection = () => {
+    /*
+        Let's create our variants. Framer Motion variables
+    */
+
     return (
         <About>
             <Description>
-                <div className="title">
+                <motion.div>
                     <Hide>
-                        <h2>We work to make</h2>
+                        <motion.h2>We work to make</motion.h2>
                     </Hide>
                     <Hide>
-                        <h2>your <span>dreams</span> come</h2>
+                        <motion.h2>your <span>dreams</span> come</motion.h2>
                     </Hide>
                     <Hide>
-                        <h2>true.</h2>
+                        <motion.h2>true.</motion.h2>
                     </Hide>
-                </div>
+                </motion.div>
 
                 <p>Contact us for any photography or videography ideas you have.
                     We have professionals with amazing skills.
